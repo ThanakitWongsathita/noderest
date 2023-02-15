@@ -6,12 +6,12 @@
   },
   "name": "src",
   "version": "1.0.0",
-  "main": "crudeBookSqlite.js",
+  "main": "index.js",
   "devDependencies": {
     "prettier": "^2.8.3"
   },
   "scripts": {
-    "start": "node crudeBookSqlite.js",
+    "start": "node .js",
     "format": "prettier --write *.js"
   },
   "keywords": [],
