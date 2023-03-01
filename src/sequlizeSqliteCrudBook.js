@@ -76,7 +76,7 @@ app.post('/books',(req,res)=>
     });
 });
 
-app.post('/books/:id',(req,res)=>
+app.put('/books/:id',(req,res)=>
 {
     Book.findByPk(req.params.id).then(book=>
     {
