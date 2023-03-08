@@ -9,14 +9,14 @@
   },
   "name": "src",
   "version": "1.0.0",
-  "main": "crudBookSqlite.js",
+  "main": "sequlizeSqliteCrudBook.js",
   "devDependencies": {
     "prettier": "^2.8.3"
   },
   "scripts": {
     "start": "node .js",
     "format": "prettier --write *.js",
-    "dev": "nodemon src/crudBookSqlite.js"
+    "dev": "nodemon src/sequlizeSqliteCrudBook.js"
   },
   "keywords": [],
   "author": "",
