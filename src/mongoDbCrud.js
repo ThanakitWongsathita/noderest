@@ -48,7 +48,7 @@ app.get("/books",async(req,res)=>
     }
 });
 
-app.get("/books/id:",async(req,res)=>
+app.get("/books/:id",async(req,res)=>
 {
     try
     {
@@ -91,4 +91,7 @@ app.delete("/books/:id",async(req,res)=>
 });
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => {console.log(`Listening on port ${port}...`);});
+app.listen(port, () => 
+{
+    console.log(`Listening on port ${port}...`);
+});
